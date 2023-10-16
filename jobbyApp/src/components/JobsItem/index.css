@@ -1,0 +1,122 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+hr {
+  border: 1px solid #cbd5e1;
+}
+.link-dom {
+  text-decoration: none;
+}
+.job-item-container {
+  background-color: #202020;
+  border-radius: 15px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.job-brief-section-1 {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.rating-tab {
+  display: flex;
+  align-items: center;
+}
+.job-details-1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.job-details-2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.location-tab {
+  display: flex;
+  align-items: center;
+}
+.employment-tab {
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+}
+.location-employment-details {
+  display: flex;
+  align-items: center;
+}
+.job-title-rating {
+  margin-left: 10px;
+}
+.company-logo-img {
+  width: 35px;
+}
+.job-title {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.company-rating {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 10px;
+  margin-left: 3px;
+}
+.loc-type-text {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 10px;
+  margin-left: 3px;
+}
+.job-salary {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 10px;
+}
+.job-brief-section-2 {
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+.brief-heading {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.brief-description {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 10px;
+  line-height: 17px;
+}
+@media screen and (min-width: 786px) {
+  .job-item-container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .company-logo-img {
+    width: 45px;
+  }
+  .job-title {
+    font-size: 15px;
+  }
+  .company-rating {
+    font-size: 12px;
+  }
+  .loc-type-text {
+    font-size: 12px;
+    margin-left: 5px;
+  }
+  .job-salary {
+    font-size: 12px;
+  }
+  .brief-heading {
+    font-size: 13px;
+  }
+  .brief-description {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}

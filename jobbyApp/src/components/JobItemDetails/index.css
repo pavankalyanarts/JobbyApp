@@ -1,0 +1,275 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.jobDetails-page-container {
+  overflow-y: auto;
+  background-color: #000000;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+hr {
+  border: 1px solid #b6c5ff;
+}
+.jobItem-details-container {
+  background-color: #202020;
+  width: 90%;
+  max-width: 850px;
+  border-radius: 15px;
+  padding: 15px;
+  margin-bottom: 25px;
+}
+.job-item-brief-section-1 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.item-rating-tab {
+  display: flex;
+  align-items: center;
+}
+.job-item-details-1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+}
+.job-item-details-2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.location-item-tab {
+  display: flex;
+  align-items: center;
+}
+.employment-item-tab {
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+}
+.item-location-employment-details {
+  display: flex;
+  align-items: center;
+}
+.job-item-title-rating {
+  margin-left: 10px;
+}
+.company-item-logo-img {
+  width: 45px;
+}
+.job-item-title {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+.company-item-rating {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin-left: 3px;
+}
+.item-loc-type-text {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 13px;
+  margin-left: 3px;
+}
+.job-item-salary {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+.job-item-brief-section-2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.about-job-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.main-sub-heading {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+.sub-heading {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+.company-website {
+  color: #6366f1;
+  font-family: 'Roboto';
+  font-size: 14px;
+  text-decoration: none;
+}
+.general-description {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 13px;
+  line-height: 23px;
+  margin-top: 15px;
+}
+.skills-section-container {
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.skills-list-container {
+  list-style-type: none;
+  padding-left: 0px;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 50px;
+  row-gap: 50px;
+}
+.skill-item {
+  width: 80px;
+  display: flex;
+  align-items: center;
+}
+.skill-img {
+  width: 23px;
+}
+.skill-name {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 13px;
+  margin-left: 10px;
+  font-weight: 500;
+}
+.lifeAtCompany-section-container {
+  width: 100%;
+  margin-top: 35px;
+}
+.company-img {
+  width: 100%;
+  height: 180px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.similar-jobs-section-container {
+  width: 90%;
+  max-width: 800px;
+}
+.similar-job-heading {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.similar-job-list {
+  list-style-type: none;
+  padding-left: 0px;
+  width: 100%;
+}
+.similar-job-item {
+  background-color: #202020;
+  border-radius: 15px;
+  padding: 15px;
+  margin-bottom: 25px;
+}
+.jobItem-loader-container {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.failure-jobItem-container {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.fail-img {
+  width: 280px;
+}
+.fail-main {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin-top: 15px;
+  text-align: center;
+}
+.fail-description {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 13px;
+  margin-top: 10px;
+  line-height: 20px;
+  text-align: center;
+}
+.retry-btn {
+  width: 70px;
+  background-color: #4f46e5;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+@media screen and (min-width: 768px) {
+  .jobItem-details-container {
+    padding: 20px;
+  }
+  .lifeAtCompany-section-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .skill-img {
+    width: 30px;
+  }
+  .skill-item {
+    width: 200px;
+  }
+  .company-img {
+    width: 100%;
+    max-width: 250px;
+    height: 200px;
+  }
+  .company-details-container {
+    width: 100%;
+    max-width: 470px;
+  }
+  .main-sub-heading {
+    color: #f1f5f9;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .similar-job-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 35px;
+  }
+  .similar-job-item {
+    width: 250px;
+  }
+  .fail-img {
+    width: 350px;
+  }
+  .fail-main {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  .fail-description {
+    font-size: 15px;
+  }
+}
