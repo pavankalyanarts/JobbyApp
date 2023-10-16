@@ -1,5 +1,5 @@
 # jobbyApp
-Hello, This a youtube replication website developed using some mock api. 
+Hello, This a job application website developed using some mock api, which gives the user to search and apply for the jobs. 
 This website is developed with the concepts that i had learned. 
 The technology i used to develope this website is one of the famous Javascript Library called Reactjs.
 
